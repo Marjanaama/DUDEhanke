@@ -1,0 +1,11 @@
+>root
+>main.html (duden pää html sivu)
+>styles
+	>dudestyle.css
+>scripts
+	>dudescript.js  (jaa tarpeen mukaan)
+>images
+	>sample.jpg/png
+
+luokat, muuttujat, yms, käyttäen camelcasingiä (esm pekkaPouta, kaupunginTalousKasvu)
+koodi erotettu tab näppäimellä
