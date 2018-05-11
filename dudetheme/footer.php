@@ -2,7 +2,7 @@
 
 	<footer class="blog-footer">
       <p>
-        <a href="#">Takaisin alkuun</a>
+        <a href="" onclick="topFunction()">Takaisin alkuun</a>
       </p>
     </footer>
 
