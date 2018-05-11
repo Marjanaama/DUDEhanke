@@ -48,7 +48,7 @@ h6, .h6 {
 
 
 .blog-masthead {
-  background-color: #428bca;
+  background-color: #f3f3f3;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 	
@@ -60,7 +60,7 @@ h6, .h6 {
   display: inline-block;
   padding: 10px;
   font-weight: 500;
-  color: #cdddeb;
+  color: #cdddebs;
 }
 
 .blog-nav li {
@@ -70,20 +70,12 @@ h6, .h6 {
     font-weight: 500;	
 }
 .blog-nav li a {
-    color: #fff;
+    color: #666;
+	text-decoration: none;
 }
 
-.blog-nav-item:hover,
-.blog-nav-item:focus {
-  color: #fff;
-  text-decoration: none;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding-top: 102px;
+.blog-nav li:hover:not(.active) {
+	background-color: #ddd;
 }
 
 .top-container {
@@ -95,7 +87,7 @@ h6, .h6 {
 
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
-  color: #fff;
+  color: #666;
 }
 .blog-nav .active:after {
   position: absolute;
